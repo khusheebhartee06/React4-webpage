@@ -1,0 +1,70 @@
+[
+    {
+        "label": "Home",
+        "link": "/",
+        "isDropDown": false,
+        "isButton":false
+    },
+    {
+        "label": "About",
+        "link": "/about",
+        "isDropDown": true,
+        "isButton":false,
+        "dropdownMenu": [
+            {
+                "label": "About",
+                "link": "/about"
+            },
+            {
+                "label": "Our Community",
+                "link": "ourcommunity"
+            },
+            {
+                "label": "My Community",
+                "link": "mycommunity"
+            }
+        ]
+    },
+    {
+        "label": "Blog",
+        "link": "/blog",
+        "isDropDown": false,
+        "isButton":false
+    },
+    {
+        "label": "Reference",
+        "link": "/reference",
+        "isDropDown": true,
+        "isButton":false,
+        "dropdownMenu": [
+            {
+                "label": "Reference",
+                "link": "/reference"
+            },
+            {
+                "label": "Our Reference",
+                "link": "ourreference"
+            },
+            {
+                "label": "My Reference",
+                "link": "myreference"
+            },
+            {
+                "label": "About Reference",
+                "link": "aboutreference"
+            }
+        ]
+    },
+    {
+        "label": "Contact",
+        "link": "/contact",
+        "isDropDown": false,
+        "isButton":false
+    },
+    {
+        "label": "Register",
+        "link": "/register",
+        "isDropDown": false,
+        "isButton":true
+    }
+]

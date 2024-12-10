@@ -1,0 +1,26 @@
+.Homeservice{
+    background-color: #1A2529;
+    color: white;
+}
+.Homeservice .box{
+    background-color: #273238;
+    padding: 25px;
+    border-radius: 30px;
+
+
+}
+.Homeservice h2, .Homeservice .box  h5{
+    color: #39A28B;
+}
+.Homeservice .icon_box{
+    padding: 10px;
+    border-radius: 9px;
+    margin: 10px 0px;
+    display: inline-block;
+    border: 2px solid white;
+    transition: all 0.5s;
+    color:#15B695;
+}
+.Homeservice  .row .col-sm-6:hover .icon_box{
+    background-color: rgb(231, 231, 231);
+}

@@ -1,0 +1,27 @@
+.Hometestimonial h2,.Hometestimonial .row .col-md-4 .box h5{
+color:#19AA87;
+}
+
+.Hometestimonial .row .col-md-4 .box{
+    background-color: #ebebeb;
+    padding: 30px 25px 40px 25px;
+    border-radius: 30px;
+}
+.Hometestimonial .client_icon_box{
+    border-radius: 50%;
+    margin: 10px 0px;
+    display: inline-block;
+    box-shadow: 3px 3px 10px rgb(133, 133, 133);
+    transition: all 0.5s;
+    width: 80px;
+    height: 80px;
+}
+.Hometestimonial .client_icon_box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.Hometestimonial .row .col-md-4:hover .client_icon_box img{
+   transform: scale(1.2);
+}

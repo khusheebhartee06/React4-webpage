@@ -1,0 +1,16 @@
+/* .Homebenifits {
+
+} */
+.Homebenifits .icon_box{
+    padding: 20px;
+    border-radius: 50%;
+    margin-top: 10px;
+    display: inline-block;
+    background-color:#4E64EB;
+    transition: all 0.5s;
+    color: white;
+}
+.Homebenifits .col-md-6 .row:hover .icon_box{
+    background-color: rgb(231, 231, 231);
+    color: rgb(10, 52, 241);
+}

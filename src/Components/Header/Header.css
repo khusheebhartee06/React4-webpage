@@ -1,0 +1,24 @@
+/* header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    z-index: 999;
+}
+header .navbar .navbar-brand,header .navbar a{
+    color: white;
+}
+header .navbar .nav-link:focus,header .navbar .nav-link.show{
+    color: wheat;
+}
+header .navbar a:hover{
+    color: rgb(219, 211, 211);
+}
+header .navbar .dropdown-menu a{
+    color: black;
+}
+header .navbar .dropdown-menu a:hover{
+    background-color: rgb(223, 223, 223);
+    display: block;
+} */

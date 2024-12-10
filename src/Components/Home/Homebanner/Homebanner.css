@@ -1,0 +1,47 @@
+.Homebanner{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0px;
+}
+.Homebannercontent{
+    padding: 110px 0px 135px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgba(7, 7, 7,0.2),rgba(0, 0, 0,0.2));
+}
+.Homebannercontent #logorotate{
+    animation: logo 4s ease-in-out 0s infinite ;  
+}   
+@keyframes logo {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.Homebannercontent h1{
+    font-size: 55px;
+}
+.Homebannercontent button{
+    padding:8px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+.Homebannercontent #btn1{
+    background-color: #58c4dc;
+    color: #404756;
+    border: none;
+}
+.Homebannercontent #btn2{
+    background-color: transparent;
+    border: 1px solid #404756;
+    color: white;
+}
+.Homebannercontent #btn2:hover{
+    background-color: #252932;
+}
